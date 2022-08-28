@@ -9,7 +9,7 @@ function version () {
   fi
 
   # 指定されたバージョンと対応するパスを取得
-  LINE=`cat ${HOME}/.java_hub.dat | grep -E -m1 "^${1} " | sed -e "s/[\r\n]\$//g"`
+  LINE=`cat ${HOME}/.java_hub.dat | grep -E -m1 "^${1} "`
   TRIM=(${LINE// / })
 
   if [[ $TRIM == "" ]];
