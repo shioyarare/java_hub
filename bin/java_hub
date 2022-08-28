@@ -28,7 +28,6 @@ do
       exit 0
       ;;
     -h | --help )
-      echo "this is help message"
       echo "usage: java_hub [-v | --version]"
       exit 0
       ;;
